@@ -1,0 +1,62 @@
+.avatar {
+  width: 181px;
+  height: 181px;
+  z-index: 1;
+}
+
+.detailsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageIcon {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.iconBox {
+  width: 220px;
+  height: 70px;
+  background-color: #d3d3d3;
+  text-align: center;
+  left: -28%;
+  position: relative;
+  border-radius: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.iconBox img {
+  padding-left: 35px;
+}
+
+.iconBoxWrap {
+  padding-bottom: 17px;
+}
+
+/* name and details */
+
+.name {
+  color: #dcb814;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.description {
+  color: white;
+  font-size: 1.1rem;
+  text-align: center;
+}
+.contact {
+  color: white;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.detailsContainer2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
