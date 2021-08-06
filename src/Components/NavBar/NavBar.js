@@ -22,7 +22,7 @@ const NavBar = () => {
             </Link>
           </li>
           <li>
-            <Link href="/VoterSection" className={styles.effectUnderline}>
+            <Link to="/VoterSection" className={styles.effectUnderline}>
               VOTER SECTION
             </Link>
           </li>
