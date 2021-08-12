@@ -1,62 +1,61 @@
-.avatar {
-  width: 181px;
-  height: 181px;
-  z-index: 1;
-}
-
-.detailsContainer {
+#about {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: #dcb814;
+  margin-top: 12%;
+  font-family: "Raleway", sans-serif;
 }
 
-.imageIcon {
+.aboutUs,
+.imageIcons,
+.imageIcons1 {
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+}
+.aboutUs {
+  margin-bottom: 100px;
+}
+
+.description,
+.contact {
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 4px;
+  line-height: 1.3;
+}
+
+.details > .name {
+  font-size: 2rem;
+  letter-spacing: 5px;
+  font-weight: bold;
 }
 
 .iconBox {
-  width: 220px;
-  height: 70px;
   background-color: #d3d3d3;
+  height: 4rem;
+  width: 13rem;
+  border-radius: 30px;
   text-align: center;
-  left: -28%;
-  position: relative;
-  border-radius: 33px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.iconBox img {
-  padding-left: 35px;
+  padding-left: 32px;
+  margin-left: -16%;
+  margin-top: 25%;
+  z-index: -1;
 }
 
-.iconBoxWrap {
-  padding-bottom: 17px;
-}
-
-/* name and details */
-
-.name {
-  color: #dcb814;
-  font-size: 2rem;
+.iconBox1 {
+  background-color: #d3d3d3;
+  height: 4rem;
+  width: 13rem;
+  border-radius: 30px;
   text-align: center;
+  padding-right: 32px;
+  z-index: -1;
+  margin-right: -16%;
+  margin-top: 25%;
 }
-
-.description {
-  color: white;
-  font-size: 1.1rem;
-  text-align: center;
-}
-.contact {
-  color: white;
-  font-size: 1.1rem;
-  text-align: center;
-}
-
-.detailsContainer2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.imageIcons1 {
+  padding-left: 30px;
 }

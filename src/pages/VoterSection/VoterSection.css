@@ -34,7 +34,7 @@
 .departmentCol {
   margin-right: 10px;
 }
-button {
+.button {
   background-color: #647aff;
   height: 50px;
   width: 130px;
@@ -45,7 +45,7 @@ button {
   color: #f3da69;
   font-weight: bold;
 }
-button:hover {
+.button:hover {
   color: #ffffff;
   background-color: #273168;
 }

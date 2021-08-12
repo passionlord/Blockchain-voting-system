@@ -18,8 +18,10 @@ const VoterSection = () => {
               <p className="name">Shraddha Tiwari</p>
             </div>
             <div className="col-3 buttonCol">
-              <Link to="/VoterSuccessful">
-                <button type="button">VOTE</button>
+              <Link to="/VoteSuccessful">
+                <button className="button" type="button">
+                  VOTE
+                </button>
               </Link>
             </div>
           </div>
@@ -37,7 +39,11 @@ const VoterSection = () => {
               <p className="name">Fhaiyaz khan</p>
             </div>
             <div className="col-3 buttonCol">
-              <button type="button">VOTE</button>
+              <Link to="/VoteSuccessful">
+                <button className="button" type="button">
+                  VOTE
+                </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -54,7 +60,11 @@ const VoterSection = () => {
               <p className="name">Vighnesh Raikar</p>
             </div>
             <div className="col-3 buttonCol">
-              <button type="button">VOTE</button>
+              <Link to="/VoteSuccessful">
+                <button className="button" type="button">
+                  VOTE
+                </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -71,7 +81,11 @@ const VoterSection = () => {
               <p className="name">Shraddha Tiwari</p>
             </div>
             <div className="col-3 buttonCol">
-              <button type="button">VOTE</button>
+              <Link to="/VoteSuccessful">
+                <button className="button" type="button">
+                  VOTE
+                </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -88,7 +102,11 @@ const VoterSection = () => {
               <p className="name">Prankali Pawar</p>
             </div>
             <div className="col-3 buttonCol">
-              <button type="button">VOTE</button>
+              <Link to="/VoteSuccessful">
+                <button className="button" type="button">
+                  VOTE
+                </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -105,7 +123,11 @@ const VoterSection = () => {
               <p className="name">Shraddha Tiwari</p>
             </div>
             <div className="col-3 buttonCol">
-              <button type="button">VOTE</button>
+              <Link to="/VoteSuccessful">
+                <button className="button" type="button">
+                  VOTE
+                </button>
+              </Link>
             </div>
           </div>
         </div>

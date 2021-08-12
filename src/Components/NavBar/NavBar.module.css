@@ -58,16 +58,19 @@ a {
 
 .navLinks li a:hover {
   box-shadow: 0 20px 85px #ec9e14;
+  color: #dcb814;
 }
 
 .navLinks li a {
   transition: all 0.3s ease 0s;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
+  font-weight: 600;
 }
 
 .voteLogo {
   z-index: 1;
   right: -10%;
+  top: -20%;
   position: static;
 }
 .circle {
