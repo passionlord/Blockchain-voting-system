@@ -8,7 +8,11 @@ const NavBar = () => {
   return (
     <div className={styles.navbar}>
       <div className={styles.logoDiv}>
-        <img className={styles.logoImage} src="/images/logo.png" alt=""></img>
+        <img
+          className={styles.logoImage}
+          src="/public/images/logo.png"
+          alt=""
+        ></img>
         {/* <h2 className={styles.home}>HOME</h2> */}
         <Link to="/" className={styles.home}>
           HOME
