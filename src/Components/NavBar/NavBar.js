@@ -10,7 +10,7 @@ const NavBar = () => {
       <div className={styles.logoDiv}>
         <img
           className={styles.logoImage}
-          src="/public/images/logo.png"
+          src="%PUBLIC_URL%/images/logo.png"
           alt=""
         ></img>
         {/* <h2 className={styles.home}>HOME</h2> */}
