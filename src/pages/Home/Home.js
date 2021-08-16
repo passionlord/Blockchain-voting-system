@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Home.module.css";
+import { Link } from "react-router-dom";
 
 const Body = () => {
   return (
@@ -8,6 +9,12 @@ const Body = () => {
         <p>BLOCK CHAIN VOTING SYSTEM</p>
       </div>
       <img className={styles.person} src="/images/person.png" alt=""></img>
+      <Link className={styles.admin} to="/Admin">
+        Admin
+      </Link>
+      <Link className={styles.admin1} to="/AdminLogin">
+        AdminLogin
+      </Link>
     </div>
   );
 };
