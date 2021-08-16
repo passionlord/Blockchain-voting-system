@@ -7,6 +7,8 @@ import VoterSection from "./pages/VoterSection/VoterSection";
 import VoteSuccessful from "./pages/VoteSuccessful/VoteSuccessful";
 import Admin from "./pages/Admin/Admin";
 import AdminLogin from "./pages/AdminLogin/AdminLogin";
+import CandidateLogin from "./pages/CandidateLogin/CandidateLogin";
+import VoterLogin from "./pages/VoterLogin/VoterLogin";
 
 const App = () => {
   return (
@@ -20,10 +22,16 @@ const App = () => {
           <Route component={Admin} path="/Admin" exact></Route>
           <Route component={AdminLogin} path="/AdminLogin" exact></Route>
           <Route
+            component={CandidateLogin}
+            path="/CandidateLogin"
+            exact
+          ></Route>
+          <Route
             component={VoteSuccessful}
             path="/VoteSuccessful"
             exact
           ></Route>
+          <Route component={VoterLogin} path="/VoterLogin" exact></Route>
         </Layout>
       </Switch>
     </BrowserRouter>

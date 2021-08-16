@@ -86,3 +86,11 @@ section .contentBx .formBx .inputBx label {
 .input[type="submit"]:hover {
   background: #4d5ec0;
 }
+
+/* error sentence */
+.errorsEmail,
+.errorsPassword {
+  font-size: 0.9rem;
+  margin-top: 5px;
+  margin-left: 20px;
+}

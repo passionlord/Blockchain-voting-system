@@ -15,6 +15,12 @@ const Body = () => {
       <Link className={styles.admin1} to="/AdminLogin">
         AdminLogin
       </Link>
+      <Link className={styles.admin2} to="/CandidateLogin">
+        CandidateLogin
+      </Link>
+      <Link className={styles.admin3} to="/VoterLogin">
+        VoterLogin
+      </Link>
     </div>
   );
 };

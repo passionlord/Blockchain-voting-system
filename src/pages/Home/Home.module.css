@@ -33,6 +33,7 @@
   margin-bottom: 0;
 }
 
+/* temporary links */
 .admin {
   position: absolute;
   top: 20%;
@@ -41,4 +42,15 @@
   position: absolute;
   top: 20%;
   margin-left: 200px;
+}
+
+.admin2 {
+  position: absolute;
+  top: 20%;
+  margin-left: 430px;
+}
+.admin3 {
+  position: absolute;
+  top: 20%;
+  margin-left: 650px;
 }

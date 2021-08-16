@@ -1,5 +1,5 @@
 import React from "react";
-import "./AdminLogin.css";
+import "../AdminLogin/AdminLogin.css";
 import { Formik } from "formik";
 import * as Yup from "yup";
 
@@ -13,7 +13,7 @@ const SignupSchema = Yup.object().shape({
     ),
 });
 
-const AdminLogin = () => {
+const VoterLogin = () => {
   return (
     <Formik
       initialValues={{
@@ -37,7 +37,7 @@ const AdminLogin = () => {
             <section id="section">
               <div className="contentBx">
                 <div className="formBx">
-                  <h2>Admin Login</h2>
+                  <h2>Voter Login</h2>
                   <form onSubmit={handleSubmit}>
                     <div className="inputBx">
                       <label htmlFor="email">Email Id</label>
@@ -85,4 +85,4 @@ const AdminLogin = () => {
   );
 };
 
-export default AdminLogin;
+export default VoterLogin;
