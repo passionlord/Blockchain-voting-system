@@ -8,7 +8,11 @@ const Body = () => {
       <div className={styles.bigTitle}>
         <p>BLOCK CHAIN VOTING SYSTEM</p>
       </div>
-      <img className={styles.person} src="/images/person.png" alt=""></img>
+      <img
+        className={styles.person}
+        src="./Blockchain-voting-system/images/person.png"
+        alt=""
+      ></img>
       <Link className={styles.admin} to="/Admin">
         Admin
       </Link>
