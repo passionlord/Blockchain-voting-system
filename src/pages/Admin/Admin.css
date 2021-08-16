@@ -45,8 +45,8 @@
   font-weight: 600;
   letter-spacing: 1px;
 }
-.voterTitle {
-  font-size: 1.2rem;
-  text-align: center;
-  padding: 10px;
+
+.adminFormContain {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
