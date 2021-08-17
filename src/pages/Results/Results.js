@@ -5,8 +5,8 @@ const Results = () => {
   return (
     <div className={styles.wrap}>
       <h1>Candidates Won</h1>
-      <div class={styles.details}>
-        <div class={styles.gridContainer}>
+      <div className={styles.details}>
+        <div className={styles.gridContainer}>
           <div className={styles.rank}>
             <p>1</p>
             <span>st</span>
@@ -22,8 +22,8 @@ const Results = () => {
         </div>
       </div>
 
-      <div class={styles.details}>
-        <div class={styles.gridContainer}>
+      <div className={styles.details}>
+        <div className={styles.gridContainer}>
           <div className={styles.rank}>
             <p>2</p>
             <span>nd</span>
@@ -33,8 +33,8 @@ const Results = () => {
         </div>
       </div>
 
-      <div class={styles.details}>
-        <div class={styles.gridContainer}>
+      <div className={styles.details}>
+        <div className={styles.gridContainer}>
           <div className={styles.rank}>
             <p>3</p>
             <span>rd</span>
