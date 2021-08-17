@@ -9,12 +9,21 @@ import Admin from "./pages/Admin/Admin";
 import AdminLogin from "./pages/AdminLogin/AdminLogin";
 import CandidateLogin from "./pages/CandidateLogin/CandidateLogin";
 import VoterLogin from "./pages/VoterLogin/VoterLogin";
+import { useState } from "react";
 
 const App = () => {
+  const [isLogin, setIsLogin] = useState(false);
   return (
     <BrowserRouter>
       <Switch>
         <Layout>
+          {isLogin ? (
+            <Route component={Home} path="/" exact></Route>
+          ) : (
+            <Route path="/" exact>
+              <VoterLogin setIsLogin={setIsLogin} />
+            </Route>
+          )}
           <Route component={Home} path="/" exact></Route>
           <Route component={AboutUs} path="/AboutUs" exact></Route>
           <Route component={Results} path="/Results" exact></Route>

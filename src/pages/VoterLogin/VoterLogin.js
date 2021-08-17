@@ -13,7 +13,7 @@ const SignupSchema = Yup.object().shape({
     ),
 });
 
-const VoterLogin = () => {
+const VoterLogin = ({ setIsLogin }) => {
   return (
     <Formik
       initialValues={{
@@ -21,7 +21,7 @@ const VoterLogin = () => {
         password: "",
       }}
       validationSchema={SignupSchema}
-      onSubmit={(data: values) => console.log(data)}
+      onSubmit={(data) => setIsLogin(true)}
     >
       {({
         handleSubmit,
