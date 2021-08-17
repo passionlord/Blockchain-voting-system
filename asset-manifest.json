@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Blockchain-voting-system/static/css/main.a1400583.chunk.css",
-    "main.js": "/Blockchain-voting-system/static/js/main.442394a9.chunk.js",
-    "main.js.map": "/Blockchain-voting-system/static/js/main.442394a9.chunk.js.map",
+    "main.js": "/Blockchain-voting-system/static/js/main.ed10df5c.chunk.js",
+    "main.js.map": "/Blockchain-voting-system/static/js/main.ed10df5c.chunk.js.map",
     "runtime-main.js": "/Blockchain-voting-system/static/js/runtime-main.69d5aac2.js",
     "runtime-main.js.map": "/Blockchain-voting-system/static/js/runtime-main.69d5aac2.js.map",
     "static/js/2.564c807c.chunk.js": "/Blockchain-voting-system/static/js/2.564c807c.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.69d5aac2.js",
     "static/js/2.564c807c.chunk.js",
     "static/css/main.a1400583.chunk.css",
-    "static/js/main.442394a9.chunk.js"
+    "static/js/main.ed10df5c.chunk.js"
   ]
 }
