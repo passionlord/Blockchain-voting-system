@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./NavBar.module.css";
-import { Route, Link } from "react-router-dom";
-import AboutUs from "../../pages/AboutUs/AboutUs";
+import { Link } from "react-router-dom";
 import "../../CustomScrollbar.css";
 
 const NavBar = () => {
