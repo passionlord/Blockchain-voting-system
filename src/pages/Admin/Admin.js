@@ -1,6 +1,7 @@
 import React from "react";
 import "./Admin.css";
 import { Formik, Form } from "formik";
+import navigationImage from "../../images/navigationImage.png";
 
 const Admin = () => {
   return (
@@ -10,7 +11,7 @@ const Admin = () => {
         <div className="imgAndButton">
           <img
             className="navigationImage"
-            src="/images/navigationImage.png"
+            src={navigationImage}
             alt=""
             width="120"
           ></img>

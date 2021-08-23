@@ -1,6 +1,7 @@
 import React from "react";
 import "./VoterSection.css";
 import { Link } from "react-router-dom";
+import avatar from "../../images/avatar.png";
 
 const VoterSection = () => {
   return (
@@ -12,7 +13,7 @@ const VoterSection = () => {
               <p className=" department">TE-EXTC</p>
             </div>
             <div className="col-1 image">
-              <img src="/images/avatar.png" width="80px" alt=""></img>
+              <img src={avatar} width="80px" alt=""></img>
             </div>
             <div className="col-4">
               <p className="name">Shraddha Tiwari</p>
@@ -33,7 +34,7 @@ const VoterSection = () => {
               <p className=" department">TE-COMPS</p>
             </div>
             <div className="col-1 image">
-              <img src="/images/avatar.png" width="80px" alt=""></img>
+              <img src={avatar} width="80px" alt=""></img>
             </div>
             <div className="col-4">
               <p className="name">Fhaiyaz khan</p>
@@ -54,7 +55,7 @@ const VoterSection = () => {
               <p className=" department">TE-COMPS</p>
             </div>
             <div className="col-1 image">
-              <img src="/images/avatar.png" width="80px" alt=""></img>
+              <img src={avatar} width="80px" alt=""></img>
             </div>
             <div className="col-4">
               <p className="name">Vighnesh Raikar</p>
@@ -75,7 +76,7 @@ const VoterSection = () => {
               <p className=" department">TE-IT</p>
             </div>
             <div className="col-1 image">
-              <img src="/images/avatar.png" width="80px" alt=""></img>
+              <img src={avatar} width="80px" alt=""></img>
             </div>
             <div className="col-4">
               <p className="name">Shraddha Tiwari</p>
@@ -96,7 +97,7 @@ const VoterSection = () => {
               <p className=" department">TE-EXTC</p>
             </div>
             <div className="col-1 image">
-              <img src="/images/avatar.png" width="80px" alt=""></img>
+              <img src={avatar} width="80px" alt=""></img>
             </div>
             <div className="col-4">
               <p className="name">Prankali Pawar</p>
@@ -117,7 +118,7 @@ const VoterSection = () => {
               <p className=" department">TE-EXTC</p>
             </div>
             <div className="col-1 image">
-              <img src="/images/avatar.png" width="80px" alt=""></img>
+              <img src={avatar} width="80px" alt=""></img>
             </div>
             <div className="col-4">
               <p className="name">Shraddha Tiwari</p>

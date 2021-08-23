@@ -31,7 +31,7 @@ const VoterLogin = ({ setIsLogin }) => {
         errors,
         touched,
       }) => {
-        console.log(errors);
+        console.log(values);
         return (
           <section className="adminFormContainer">
             <section id="section">

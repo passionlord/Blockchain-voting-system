@@ -2,12 +2,13 @@ import React from "react";
 import styles from "./NavBar.module.css";
 import { Link } from "react-router-dom";
 import "../../CustomScrollbar.css";
+import logo from "../../images/logo.png";
 
 const NavBar = () => {
   return (
     <div className={styles.navbar}>
       <div className={styles.logoDiv}>
-        <img className={styles.logoImage} src="/images/logo.png" alt=""></img>
+        <img className={styles.logoImage} src={logo} alt=""></img>
         {/* <h2 className={styles.home}>HOME</h2> */}
         <Link to="/" className={styles.home}>
           HOME

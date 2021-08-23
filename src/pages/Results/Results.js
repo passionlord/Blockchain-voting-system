@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Results.module.css";
+import avatar from "../../images/avatar.png";
 
 const Results = () => {
   return (
@@ -17,7 +18,7 @@ const Results = () => {
               />
             </div>
           </div>
-          <img src="/images/avatar.png" height="80px" width="80px" alt=""></img>
+          <img src={avatar} height="80px" width="80px" alt=""></img>
           <div className={styles.name}>Shraddha Tiwari</div>
         </div>
       </div>
@@ -28,7 +29,7 @@ const Results = () => {
             <p>2</p>
             <span>nd</span>
           </div>
-          <img src="/images/avatar.png" height="80px" width="80px" alt=""></img>
+          <img src={avatar} height="80px" width="80px" alt=""></img>
           <div className={styles.name}>Faiyaz khan</div>
         </div>
       </div>
@@ -39,7 +40,7 @@ const Results = () => {
             <p>3</p>
             <span>rd</span>
           </div>
-          <img src="/images/avatar.png" height="80px" width="80px" alt=""></img>
+          <img src={avatar} height="80px" width="80px" alt=""></img>
           <div className={styles.name}>Vighnesh Raikar</div>
         </div>
       </div>

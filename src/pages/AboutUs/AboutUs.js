@@ -1,4 +1,5 @@
 import "./AboutUs.css";
+import avatar from "../../images/avatar.png";
 
 const AboutUs = () => {
   return (
@@ -6,12 +7,7 @@ const AboutUs = () => {
       {/* people-1 */}
       <div className="aboutUs">
         <div className="imageIcons">
-          <img
-            src="/images/avatar.png"
-            alt=""
-            width="180px"
-            height="180px"
-          ></img>
+          <img src={avatar} alt="" width="180px" height="180px"></img>
           <div className="iconBox">
             <a href="www.facebook.com" className="">
               <img
@@ -58,24 +54,14 @@ const AboutUs = () => {
               </a>
             </a>
           </div>
-          <img
-            src="/images/avatar.png"
-            alt=""
-            width="180px"
-            height="180px"
-          ></img>
+          <img src={avatar} alt="" width="180px" height="180px"></img>
         </div>
       </div>
 
       {/* people-3 */}
       <div className="aboutUs">
         <div className="imageIcons">
-          <img
-            src="/images/avatar.png"
-            alt=""
-            width="180px"
-            height="180px"
-          ></img>
+          <img src={avatar} alt="" width="180px" height="180px"></img>
           <div className="iconBox">
             <a href="www.facebook.com" className="">
               <img
@@ -92,7 +78,7 @@ const AboutUs = () => {
           </div>
         </div>
         <div className="details">
-          <p className="name">FAIYAZ KHAM</p>
+          <p className="name">FAIYAZ KHAN</p>
           <p className="description">Backend Developer</p>
           <p className="contact">+91 98663663</p>
         </div>
@@ -122,12 +108,7 @@ const AboutUs = () => {
               </a>
             </a>
           </div>
-          <img
-            src="/images/avatar.png"
-            alt=""
-            width="180px"
-            height="180px"
-          ></img>
+          <img src={avatar} alt="" width="180px" height="180px"></img>
         </div>
       </div>
     </section>
