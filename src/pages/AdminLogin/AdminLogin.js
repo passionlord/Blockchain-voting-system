@@ -21,7 +21,7 @@ const AdminLogin = () => {
         password: "",
       }}
       validationSchema={SignupSchema}
-      onSubmit={(data: values) => console.log(data)}
+      onSubmit={(data) => console.log(data)}
     >
       {({
         handleSubmit,

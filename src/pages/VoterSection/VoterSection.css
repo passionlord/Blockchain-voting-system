@@ -49,3 +49,31 @@
   color: #ffffff;
   background-color: #273168;
 }
+
+/* mobile */
+@media only screen and (max-width: 375px) {
+  .contents {
+    width: 95%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  .department,
+  .name {
+    padding-left: 20px;
+    font-size: 0.8rem;
+    text-align: center;
+    color: #dcb814;
+  }
+
+  .name {
+    padding-left: 80px;
+  }
+
+  .image {
+    padding-left: -30%;
+  }
+}

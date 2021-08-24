@@ -13,10 +13,14 @@ const VoterSection = () => {
               <p className=" department">TE-EXTC</p>
             </div>
             <div className="col-1 image">
-              <img src={avatar} width="80px" alt=""></img>
+              <Link to="">
+                <img src={avatar} width="80px" alt=""></img>
+              </Link>
             </div>
             <div className="col-4">
-              <p className="name">Shraddha Tiwari</p>
+              <Link to="">
+                <p className="name">Shraddha Tiwari</p>
+              </Link>
             </div>
             <div className="col-3 buttonCol">
               <Link to="/VoteSuccessful">

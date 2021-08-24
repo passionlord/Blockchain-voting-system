@@ -55,3 +55,24 @@
   top: 20%;
   margin-left: 650px;
 }
+
+/* mobile */
+
+@media only screen and (max-width: 375px) {
+  .bigTitle {
+    padding: 3px;
+    margin: 40px;
+    margin-top: 100px;
+  }
+
+  .bigTitle p {
+    font-size: 1.2rem;
+  }
+
+  .person {
+    width: 237px;
+    height: 334px;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+}

@@ -104,3 +104,33 @@ a.effectUnderline:hover:after {
   -webkit-transform: scale(1);
   transform: scale(1);
 }
+
+/* mobile */
+@media only screen and (max-width: 375px) {
+  .circle {
+    width: 700px;
+    height: 700px;
+    z-index: -1;
+    top: -80%;
+    left: -40%;
+    position: absolute;
+  }
+
+  .voteLogo {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navLinks {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navLinks li {
+    padding: 20px;
+  }
+}
