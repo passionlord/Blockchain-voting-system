@@ -36,7 +36,7 @@ const AboutUs = () => {
       <div className="aboutUs">
         <div className="details">
           <p className="name">VIGHNESH RAIKAR</p>
-          <p className="description">UI/UX Designer (Frontend)</p>
+          <p className="description">UI/UX Designer (Frontend Developer)</p>
           <p className="contact">+91 98663663</p>
         </div>
         <div className="imageIcons1">
