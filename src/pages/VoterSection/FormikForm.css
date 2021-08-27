@@ -1,0 +1,11 @@
+.space {
+  padding: 10px;
+}
+
+.customStyle {
+  border-radius: 30px;
+  background-color: rgba(37, 12, 12, 0.26);
+  border: 1px solid white;
+  margin-left: 5px;
+  color: white;
+}

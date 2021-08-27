@@ -2,8 +2,12 @@ import React from "react";
 import "./VoterSection.css";
 import { Link } from "react-router-dom";
 import avatar from "../../images/avatar.png";
+import Popup from "./Popup";
+import { useState } from "react";
+import CandidateDetails from "./CandidateDetails";
 
 const VoterSection = () => {
+  const [buttonPopup, setButtonPopup] = useState(false);
   return (
     <section>
       <div className="wrapper">
@@ -13,12 +17,16 @@ const VoterSection = () => {
               <p className=" department">TE-EXTC</p>
             </div>
             <div className="col-1 image">
-              <Link to="">
+              <Link onClick={() => setButtonPopup(true)}>
                 <img src={avatar} width="80px" alt=""></img>
               </Link>
+              <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
+                {/* candidate details */}
+                <CandidateDetails />
+              </Popup>
             </div>
             <div className="col-4">
-              <Link to="">
+              <Link onClick={() => setButtonPopup(true)}>
                 <p className="name">Shraddha Tiwari</p>
               </Link>
             </div>

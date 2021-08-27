@@ -1,59 +1,59 @@
 import React from "react";
-import "./Admin.css";
+import styles from "./Admin.module.css";
 import { Formik, Form } from "formik";
 import navigationImage from "../../images/navigationImage.png";
 
 const Admin = () => {
   return (
-    <section id="pageItems">
-      <div className="navPanel">
-        <h2 className="h2navPanel"> NAVIGATION PANEL</h2>
-        <div className="imgAndButton">
+    <section id={styles.pageItems}>
+      <div className={styles.navPanel}>
+        <h2 className={styles.h2navPanel}> NAVIGATION PANEL</h2>
+        <div className={styles.imgAndButton}>
           <img
-            className="navigationImage"
+            className={styles.navigationImage}
             src={navigationImage}
             alt=""
             width="120"
           ></img>
-          <button className="addVoters">Add Voters</button>
-          <button className="addCandidate">Add Candidate</button>
+          <button className={styles.addVoters}>Add Voters</button>
+          <button className={styles.addCandidate}>Add Candidate</button>
         </div>
       </div>
-      <div className="inputDetails">
-        <section className="adminFormContain">
-          <section id="formSection">
-            <div className="contentBx">
-              <div className="formBx">
+      <div className={styles.inputDetails}>
+        <section className={styles.adminFormContain}>
+          <section id={styles.formSection}>
+            <div className={styles.contentBx}>
+              <div className={styles.formBx}>
                 <h2>Voter Details</h2>
                 <form>
-                  <div className="inputBx">
+                  <div className={styles.inputBx}>
                     <label htmlFor="text">Full Name</label>
                     <input
-                      className="input"
+                      className={styles.input}
                       type="email"
                       placeholder="your Fullname.."
                     ></input>
                   </div>
-                  <div className="inputBx">
+                  <div className={styles.inputBx}>
                     <label htmlFor="email">Email-Id</label>
                     <input
-                      className="input"
+                      className={styles.input}
                       type="password"
                       placeholder="email.."
                     ></input>
                   </div>
-                  <div className="inputBx">
+                  <div className={styles.inputBx}>
                     <label htmlFor="string">Contact Number</label>
                     <input
-                      className="input"
+                      className={styles.input}
                       type="password"
                       placeholder="phone.."
                     ></input>
                   </div>
-                  <div className="inputBx">
+                  <div className={styles.inputBx}>
                     <label htmlFor="text">Residential Address</label>
                     <input
-                      className="input"
+                      className={styles.input}
                       type="password"
                       placeholder="address.."
                     ></input>
