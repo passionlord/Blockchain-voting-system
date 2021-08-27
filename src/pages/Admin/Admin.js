@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Admin.module.css";
-import { Formik, Form } from "formik";
+
 import navigationImage from "../../images/navigationImage.png";
 
 const Admin = () => {
@@ -38,7 +38,7 @@ const Admin = () => {
                     <label htmlFor="email">Email-Id</label>
                     <input
                       className={styles.input}
-                      type="password"
+                      type="email"
                       placeholder="email.."
                     ></input>
                   </div>
@@ -46,7 +46,7 @@ const Admin = () => {
                     <label htmlFor="string">Contact Number</label>
                     <input
                       className={styles.input}
-                      type="password"
+                      type="text"
                       placeholder="phone.."
                     ></input>
                   </div>
@@ -54,7 +54,7 @@ const Admin = () => {
                     <label htmlFor="text">Residential Address</label>
                     <input
                       className={styles.input}
-                      type="password"
+                      type="text"
                       placeholder="address.."
                     ></input>
                   </div>
