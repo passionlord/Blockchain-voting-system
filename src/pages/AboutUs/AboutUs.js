@@ -1,6 +1,5 @@
 import "./AboutUs.css";
 import avatar from "../../images/avatar.png";
-import { motion } from "framer-motion";
 
 const AboutUs = () => {
   return (
