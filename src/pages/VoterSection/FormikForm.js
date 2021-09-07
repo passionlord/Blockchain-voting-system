@@ -4,7 +4,7 @@ import "./FormikForm.css";
 
 const form_id = "form_id";
 class MaintenanceForm extends Component {
-  editOnClick = (event) => {
+  editOnClick = function (event) {
     event.preventDefault();
     const data = !this?.props?.status?.edit;
     this.props.setStatus({
