@@ -18,7 +18,6 @@ const App = () => {
     <BrowserRouter>
       <Switch>
         <Layout>
-          {/* login */}
           {isLogin ? (
             <Route component={Home} path="/" exact></Route>
           ) : (
@@ -26,7 +25,6 @@ const App = () => {
               <VoterLogin setIsLogin={setIsLogin} />
             </Route>
           )}
-          {/* logout */}
 
           <Route component={AboutUs} path="/AboutUs" exact></Route>
           <Route component={Results} path="/Results" exact></Route>

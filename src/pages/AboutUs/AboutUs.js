@@ -3,7 +3,7 @@ import avatar from "../../images/avatar.png";
 
 const AboutUs = () => {
   return (
-    <motion.section transition={{ type: "spring", stiffness: 100 }} id="about">
+    <section transition={{ type: "spring", stiffness: 100 }} id="about">
       {/* people-1 */}
       <div className="aboutUs">
         <div className="imageIcons">
@@ -111,7 +111,7 @@ const AboutUs = () => {
           <img src={avatar} alt="" width="180px" height="180px"></img>
         </div>
       </div>
-    </motion.section>
+    </section>
   );
 };
 
